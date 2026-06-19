@@ -1,0 +1,45 @@
+{
+    "trial_number": 3,
+    "hparams": {
+        "epochs": 4,
+        "batch_size": 15,
+        "warmup_ratio": 0.1237032996910929,
+        "lr_scheduler": "linear",
+        "bert": {
+            "learning_rate": 1.2097195007285369e-05,
+            "weight_decay": 0.006186666029824415
+        },
+        "nn": {
+            "learning_rate": 0.00016921843516443498,
+            "weight_decay": 0.001079344152708268,
+            "dropout": 0.21483646246921673
+        }
+    },
+    "evaluation_report": {
+        "Não-HS": {
+            "precision": 0.9111111111111111,
+            "recall": 0.9151785714285714,
+            "f1-score": 0.9131403118040089,
+            "support": 224.0
+        },
+        "Hate Speech": {
+            "precision": 0.9140271493212669,
+            "recall": 0.9099099099099099,
+            "f1-score": 0.9119638826185101,
+            "support": 222.0
+        },
+        "accuracy": 0.9125560538116592,
+        "macro avg": {
+            "precision": 0.912569130216189,
+            "recall": 0.9125442406692407,
+            "f1-score": 0.9125520972112595,
+            "support": 446.0
+        },
+        "weighted avg": {
+            "precision": 0.9125625920139242,
+            "recall": 0.9125560538116592,
+            "f1-score": 0.9125547349448593,
+            "support": 446.0
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "best_params": {
+        "svm__C": 10.0,
+        "tfidf__max_features": 10000,
+        "tfidf__ngram_range": [
+            1,
+            1
+        ]
+    },
+    "best_cv_macro_f1": 0.689181546191391,
+    "holdout_evaluation_report": {
+        "Não-HS": {
+            "precision": 0.9,
+            "recall": 0.8974358974358975,
+            "f1-score": 0.8987161198288159,
+            "support": 351.0
+        },
+        "Hate Speech": {
+            "precision": 0.4782608695652174,
+            "recall": 0.4852941176470588,
+            "f1-score": 0.48175182481751827,
+            "support": 68.0
+        },
+        "accuracy": 0.8305489260143198,
+        "macro avg": {
+            "precision": 0.6891304347826087,
+            "recall": 0.6913650075414781,
+            "f1-score": 0.6902339723231671,
+            "support": 419.0
+        },
+        "weighted avg": {
+            "precision": 0.8315554633184602,
+            "recall": 0.8305489260143198,
+            "f1-score": 0.8310464967720899,
+            "support": 419.0
+        }
+    }
+}

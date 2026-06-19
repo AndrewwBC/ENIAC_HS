@@ -1,0 +1,42 @@
+{
+    "outer_fold": 2,
+    "best_params": {
+        "epochs": 7,
+        "batch_size": 27,
+        "warmup_ratio": 0.11849556115599617,
+        "scheduler": "cosine",
+        "bert_lr": 2.7374165608087e-05,
+        "bert_wd": 0.002547683516282903,
+        "nn_lr": 0.0001987445280492282,
+        "nn_wd": 0.0005225025221494894,
+        "nn_dropout": 0.11741651732939673
+    },
+    "cv_best_macro_f1": 0.8770339604962973,
+    "test_evaluation_report": {
+        "Não-HS": {
+            "precision": 0.8989169675090253,
+            "recall": 0.8892857142857142,
+            "f1-score": 0.8940754039497307,
+            "support": 280.0
+        },
+        "Hate Speech": {
+            "precision": 0.8892857142857142,
+            "recall": 0.8989169675090253,
+            "f1-score": 0.8940754039497307,
+            "support": 277.0
+        },
+        "accuracy": 0.8940754039497307,
+        "macro avg": {
+            "precision": 0.8941013408973697,
+            "recall": 0.8941013408973697,
+            "f1-score": 0.8940754039497307,
+            "support": 557.0
+        },
+        "weighted avg": {
+            "precision": 0.8941272778450089,
+            "recall": 0.8940754039497307,
+            "f1-score": 0.8940754039497307,
+            "support": 557.0
+        }
+    }
+}
